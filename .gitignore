@@ -1,0 +1,19 @@
+# Node/JS
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+.next/
+out/
+.vercel/
+
+# Env & local
+.env*
+.DS_Store
+*.local
+
+# WordPress (後で使うかも)
+wp-content/uploads/
+wp-content/upgrade/
+vendor/
