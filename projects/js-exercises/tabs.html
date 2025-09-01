@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabs Demo</title>
+</head>
+<body>
+  <div role="tablist" id="demo-tabs">
+    <button role="tab" aria-controls="panel1">タブ1</button>
+    <button role="tab" aria-controls="panel2">タブ2</button>
+    <button role="tab" aria-controls="panel3">タブ3</button>
+  </div>
+  <div id="demo-tabs-panel">
+    <div id="panel1" role="tabpanel">コンテンツ1</div>
+    <div id="panel2" role="tabpanel">コンテンツ2</div>
+    <div id="panel3" role="tabpanel">コンテンツ3</div>
+  </div>
+
+  <script type="module">
+    import { initTabs } from './tabs.js';
+    initTabs();
+  </script>
+</body>
+</html>

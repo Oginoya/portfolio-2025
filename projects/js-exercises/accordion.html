@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Accordion Demo</title>
+</head>
+<body>
+  <div data-accordion>
+    <button>見出し1</button>
+    <div data-acc-panel>パネル1の内容</div>
+  </div>
+
+  <div data-accordion>
+    <button>見出し2</button>
+    <div data-acc-panel>パネル2の内容</div>
+  </div>
+
+  <script type="module">
+    import { initAccordion } from './accordion.js';
+    initAccordion();
+  </script>
+</body>
+</html>
