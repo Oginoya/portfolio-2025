@@ -17,10 +17,10 @@
 - M6：Capstone（Next.js＋WPの統合デモ）＋応募開始
 
 ## 今週タスク
-- [ ] GitHubに `portfolio-2025` を作成し初回プッシュ
-- [ ] jQuery→素のJSリライト（モーダル/タブ/アコーディオン）
-- [ ] CSS設計テンプレ雛形配置（`projects/css-template`）
-- [ ] `create-next-app` で雛形を作り `projects/next-starter` に配置→Vercelにデプロイ
+- [☑️] GitHubに `portfolio-2025` を作成し初回プッシュ
+- [☑️] jQuery→素のJSリライト（モーダル/タブ/アコーディオン）
+- [☑️] CSS設計テンプレ雛形配置（`projects/css-template`）
+- [☑️] `create-next-app` で雛形を作り `projects/next-starter` に配置→Vercelにデプロイ(https://portfolio-2025-orcin-five.vercel.app/)
 
 ## ディレクトリ構成（初期）
 projects/
