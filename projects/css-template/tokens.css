@@ -1,0 +1,33 @@
+:root {
+  /* 1rem = 14px 前提 */
+  font-size: 14px;
+
+  /* 色 */
+  --c-bg: #ffffff;
+  --c-fg: #111827;
+  --c-muted: #6b7280;
+  --c-primary: #2563eb;
+  --c-primary-contrast: #ffffff;
+  --c-border: #e5e7eb;
+
+  /* 余白スケール */
+  --sp-0: 0;
+  --sp-1: .25rem;
+  --sp-2: .5rem;
+  --sp-3: .75rem;
+  --sp-4: 1rem;
+  --sp-6: 1.5rem;
+  --sp-8: 2rem;
+
+  /* 半径・影 */
+  --radius: .5rem;
+  --shadow: 0 1px 2px rgba(0,0,0,.06), 0 1px 3px rgba(0,0,0,.1);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-bg: #0b0f14;
+    --c-fg: #e5e7eb;
+    --c-muted: #9ca3af;
+    --c-border: #1f2937;
+  }
+}

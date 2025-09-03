@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Template Demo</title>
+  <link rel="stylesheet" href="./tokens.css">
+  <link rel="stylesheet" href="./utils.css">
+  <link rel="stylesheet" href="./layouts.css">
+  <link rel="stylesheet" href="./components/button.css">
+  <link rel="stylesheet" href="./components/card.css">
+  <link rel="stylesheet" href="./components/form.css">
+  <link rel="stylesheet" href="./base.css">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: var(--c-bg);
+      color: var(--c-fg);
+      padding: var(--sp-6);
+    }
+    h1, h2 {
+      margin-bottom: var(--sp-4);
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Template Demo</h1>
+
+  <!-- Buttons -->
+  <section class="u-stack">
+    <h2>Buttons</h2>
+    <button class="btn">Primary Button</button>
+    <button class="btn btn--ghost">Ghost Button</button>
+  </section>
+
+  <!-- Card -->
+  <section class="u-stack" style="margin-top: var(--sp-8);">
+    <h2>Card</h2>
+    <div class="card">
+      <div class="card__body">
+        <h3 class="card__title">カードタイトル</h3>
+        <p>これはカードの本文です。FLOCSS/BEM風に構成されています。</p>
+        <button class="btn">アクション</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form -->
+  <section class="u-stack" style="margin-top: var(--sp-8); max-width: 400px;">
+    <h2>Form</h2>
+    <form class="u-stack">
+      <label>
+        名前:
+        <input type="text" class="form__input">
+      </label>
+      <label>
+        メール:
+        <input type="email" class="form__input">
+      </label>
+      <button class="btn">送信</button>
+    </form>
+  </section>
+
+</body>
+</html>

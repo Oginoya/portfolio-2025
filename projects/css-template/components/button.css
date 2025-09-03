@@ -1,0 +1,8 @@
+.btn {
+  display:inline-flex; align-items:center; justify-content:center;
+  padding: .5rem 1rem; border-radius: var(--radius);
+  background: var(--c-primary); color: var(--c-primary-contrast);
+  box-shadow: var(--shadow); border: 1px solid transparent;
+}
+.btn--ghost { background: transparent; color: var(--c-primary); border-color: var(--c-border); }
+.btn:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
