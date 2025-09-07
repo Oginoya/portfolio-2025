@@ -17,7 +17,10 @@ export default function Home() {
         </h1>
 
         {/* 👇 ここでコンポーネントを利用 */}
-        <Hello name="Next.js" />
+        {/* 👇 emoji を自由に変えられる */}
+        <Hello name="Next.js" emoji="🚀" />
+        <Hello name="React" emoji="⚛️" />
+        <Hello name="World" />
 
         <p style={{ opacity: 0.8, marginBottom: "1.5rem" }}>
           Next.js（App Router / TS）での最初のデプロイ。編集→push すると Vercel が自動で反映されます。
