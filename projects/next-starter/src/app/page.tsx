@@ -1,4 +1,6 @@
 // app/page.tsx
+import { Hello } from "./components/Hello";
+
 export default function Home() {
   return (
     <main
@@ -13,6 +15,10 @@ export default function Home() {
         <h1 style={{ fontSize: "2.25rem", lineHeight: 1.2, marginBottom: "1rem" }}>
           Hello Portfolio-2025 🚀
         </h1>
+
+        {/* 👇 ここでコンポーネントを利用 */}
+        <Hello name="Next.js" />
+
         <p style={{ opacity: 0.8, marginBottom: "1.5rem" }}>
           Next.js（App Router / TS）での最初のデプロイ。編集→push すると Vercel が自動で反映されます。
         </p>
